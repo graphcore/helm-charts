@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  ipu-operator:
+  - apiVersion: v2
+    appVersion: 1.1.0-p000032
+    created: "2022-11-21T15:33:48.992196+01:00"
+    description: A Helm chart for the Graphcore IPU Operator
+    digest: 91be441e368416717a088cad7a62043dc4243d7619e8bf8145d0f67522b2e397
+    keywords:
+    - IPU
+    - MPI
+    - ML
+    - AI
+    kubeVersion: '>=v1.16.0-0'
+    name: ipu-operator
+    type: application
+    urls:
+    - charts/ipu-operator-helm-chart-1.1.0.tgz
+    version: 1.1.0
+generated: "2022-11-21T15:33:48.990253+01:00"
