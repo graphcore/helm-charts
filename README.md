@@ -19,14 +19,4 @@ To uninstall the chart:
 
     helm delete my-<chart-name>
 
-For IPU Operator to work properly IPUJobs CRD specfication is also required. It 
-is attainable directly from Github releases or using the following command:
-
-    curl -s https://api.github.com/repos/graphcore/helm-charts/releases/latest | grep -wo "https.*ipujobs.*yaml" | wget -qi -
-
-To install the CRD:
-
-    kubectl apply -f graphcore.ai_ipujobs_<version>.yaml
-
-
 For further and more detailed information please refer to [Graphcore Kubernetes documentation](https://docs.graphcore.ai/projects/kubernetes-user-guide/en/latest/index.html).
